@@ -25,9 +25,9 @@ regions:
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
-use-player-move-event: true
-use-player-teleports: true
-use-particle-effects: true
+use-player-move-event: false
+use-player-teleports: false
+use-particle-effects: false
 disable-permission-cache: false
 security:
     deop-everyone-on-join: false
