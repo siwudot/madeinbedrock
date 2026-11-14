@@ -1,0 +1,1 @@
+addCommand("coolcommand", onCommand);

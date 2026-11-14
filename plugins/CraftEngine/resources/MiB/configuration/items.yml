@@ -1,0 +1,20 @@
+items:
+  mib:diamond:
+    material: diamond
+    data:
+      item_name: "dIAmante"
+      lore:
+        - "Diamante magico, no generado por IA."
+
+recipes:
+  mib:diamond:
+    type: shaped
+    pattern:
+      - "AAA"
+      - "AAA"
+      - "AAA"
+    ingredients:
+      A: minecraft:diamond_block
+    result:
+      id: mib:diamond
+      count: 1
