@@ -22,6 +22,8 @@ public class CurseListener implements Listener {
 
         if (velY < -1) {
             curseManager.applyCurse(player);
+        } else if (velY < -3) {
+            curseManager.killPlayer(player);
         } else {
             curseManager.removeCurse(player);
         }

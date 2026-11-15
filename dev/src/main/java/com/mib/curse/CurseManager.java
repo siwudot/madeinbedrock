@@ -32,4 +32,8 @@ public class CurseManager {
         player.removePotionEffect(PotionEffectType.NAUSEA);
         player.removePotionEffect(PotionEffectType.DARKNESS);
     }
+
+    public void killPlayer(Player player) {
+        player.kill(null);
+    }
 }
