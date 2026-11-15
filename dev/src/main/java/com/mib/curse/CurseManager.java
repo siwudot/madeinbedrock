@@ -34,6 +34,6 @@ public class CurseManager {
     }
 
     public void killPlayer(Player player) {
-        player.kill(null);
+        player.setHealth(0);
     }
 }

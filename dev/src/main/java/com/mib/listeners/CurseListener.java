@@ -20,10 +20,10 @@ public class CurseListener implements Listener {
 
         double velY = player.getVelocity().getY();
 
-        if (velY < -1) {
-            curseManager.applyCurse(player);
-        } else if (velY < -3) {
+        if (velY < -3) {
             curseManager.killPlayer(player);
+        } else if (velY < -1) {
+            curseManager.applyCurse(player);
         } else {
             curseManager.removeCurse(player);
         }
