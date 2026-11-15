@@ -1,7 +1,7 @@
 addCommand("clearChat", {
   onCommand: function(sender) {
-    for (var i = 0; i < 100; i++) {
-      sender.sendMessage(" ");
+    for (var i = 1; i < 100; i++) {
+      sender.sendMessage(i);
     }
   }
 });

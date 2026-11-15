@@ -1,0 +1,26 @@
+metrics:
+  bstats: false
+
+models:
+  namespace: mib
+  join-send-delay: 500 # ms
+  spawn-send-delay: 50 # ms
+  properties-send-delay: 30 # ms
+  custom-entity-sync-delay: 150
+  custom-entity-sync-resend-interval: 40
+  custom-entity-sync-resend-count: 3
+  entity-position-update-period: 35 # ms
+  entity-update-period: 20 # ms
+  mount-control-period: 50 # ms
+  thread-pool-size: 4
+
+options:
+  debug:
+    spawn: false
+    animations: false
+    send-data: false
+    location: false
+    death: false
+    tints: false
+  hooks:
+    floodgate: true
