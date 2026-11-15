@@ -1,4 +1,3 @@
-
 package com.mib.curse;
 
 import com.mib.Main;
