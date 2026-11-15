@@ -1,0 +1,4 @@
+name: MiB
+version: 1.0.0
+main: com.mib.Main
+api-version: '26.3'

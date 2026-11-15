@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "com.siwudot"
+group = "com.mib"
 version = "1.0.0"
 
 repositories {
@@ -20,7 +20,7 @@ dependencies {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(25d))
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
