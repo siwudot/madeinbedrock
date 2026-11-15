@@ -1,0 +1,66 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.mantoyer.idle": {
+      "loop": true,
+      "bones": {
+        "LegLeft": {
+          "rotation": [
+            0,
+            0,
+            20
+          ]
+        },
+        "LegRight": {
+          "rotation": [
+            0,
+            0,
+            -20
+          ]
+        },
+        "Head": {
+          "rotation": [
+            -90,
+            0,
+            0
+          ]
+        },
+        "ArmRight": {
+          "rotation": [
+            0,
+            -90,
+            -15
+          ]
+        },
+        "ArmLeft": {
+          "rotation": [
+            0,
+            90,
+            15
+          ]
+        },
+        "Body": {
+          "rotation": [
+            -12.5,
+            0,
+            0
+          ]
+        },
+        "Tail": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        },
+        "root": {
+          "rotation": [
+            90,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

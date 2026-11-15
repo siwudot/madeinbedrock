@@ -1,0 +1,4 @@
+commands:
+  geysermodelengineextension:
+    reload:
+      successfully-reloaded: "GeyserModelEngineExtension reloaded!"
