@@ -1,0 +1,15 @@
+models:
+  namespace: mib
+
+options:
+  debug:
+    geometry-bones: false
+  resource-pack:
+    auto-load: true
+    hash-models-textures: true
+    bake-catmullrom-to-linear: false
+    catmullrom-sample-step: 0.05
+    translucent-materials: true
+    translucent-threshold: 0.5
+    bone-tints: true # Show ModelEngine bone tints on Bedrock (one tint colour per model)
+    manual-animator: true # Apply ModelEngine manual animators on the root bone (e.g. MythicMobs animatemodel)

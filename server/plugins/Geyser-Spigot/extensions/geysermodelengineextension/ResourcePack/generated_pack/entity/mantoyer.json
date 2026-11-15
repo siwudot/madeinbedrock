@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "mib:mantoyer",
+            "materials": {
+                "default": "entity_alphatest_change_color_one_sided",
+                "anim": "entity_alphatest_anim_change_color_one_sided",
+                "blend": "entity_alphablend_change_color_one_sided",
+                "tintblend": "entity_alphablend"
+            },
+            "textures": {},
+            "geometry": {},
+            "animations": {
+                "look_at_target": "animation.common.look_at_target",
+                "idle": "animation.mantoyer.idle",
+                "idle_control": "controller.animation.mantoyer.idle",
+                "manual_root": "animation.mantoyer.manual_root"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target",
+                    "idle_control",
+                    {
+                        "manual_root": "query.property('mib:manual_on') == 1"
+                    }
+                ]
+            },
+            "render_controllers": []
+        }
+    }
+}

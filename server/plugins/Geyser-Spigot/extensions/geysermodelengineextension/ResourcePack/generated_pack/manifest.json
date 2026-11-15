@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Made in Bedrock",
+    "description": "Made in Bedrock custom resource pack.",
+    "uuid": "c6cb6e3d-29b9-4642-9a27-b23fdd8c8015",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      100
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "description": "Made in Bedrock custom resource pack.",
+      "uuid": "8f139a04-30e4-4ef5-9d0b-fa7a61eeb47c",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
