@@ -7,7 +7,7 @@ options:
   resource-pack:
     auto-load: true
     hash-models-textures: true
-    bake-catmullrom-to-linear: false
+    bake-catmullrom-to-linear: true
     catmullrom-sample-step: 0.05
     translucent-materials: true
     translucent-threshold: 0.5

@@ -26,9 +26,9 @@ module:
   # Enables general entity models.
   model: true
   # Enables player-specific animations and models (e.g., custom limbs).
-  player-animation: true
+  player-animation: false
   # Enables player armor in player model.
-  player-armor: true
+  player-armor: false
 
 # Resource pack generation settings.
 pack:
