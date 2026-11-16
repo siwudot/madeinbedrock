@@ -15,7 +15,8 @@ public class DeathListener implements Listener {
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {
         var player = event.getEntity();
-
+        player.removeScoreboardTag("Layer1");
+        
         String message = curseManager.consumeDeathMessage(
                 player.getUniqueId());
 

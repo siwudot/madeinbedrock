@@ -50,8 +50,8 @@ public class CurseManager {
 
     public void layer1Curse(Player player) {
         player.addPotionEffect(new PotionEffect(
-                PotionEffectType.NAUSEA,
-                20 * 60,
+                PotionEffectType.BLINDNESS,
+                20 * 5,
                 255,
                 true,
                 false));
